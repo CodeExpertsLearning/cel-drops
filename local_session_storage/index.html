@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CEL Drops - Code Experts Learning</title>
+</head>
+<body>
+    <div class="container">
+        <button>Salvar</button>
+    </div>
+<script>
+    let el = document.querySelector('.container button');
+
+    el.addEventListener('click', function(){
+
+        const myStorage = localStorage;
+
+        //Inseri um dado no sessionStorage
+        // myStorage.setItem('name', 'Outro Nome');    
+        
+        //Recupera um dado do sessionStorage
+        // alert(myStorage.getItem('name'));
+
+        //Remove um dado da sessionStorage
+        myStorage.removeItem('name');
+
+        //const mySession = sessionStorage;
+
+        //Inseri um dado no sessionStorage
+        // mySession.setItem('name', 'Nanderson');    
+        
+        //Recupera um dado do sessionStorage
+        // alert(mySession.getItem('name'));
+
+        //Remove um dado da sessionStorage
+        // mySession.removeItem('name');
+    });
+
+
+</script>
+</body>
+</html>
